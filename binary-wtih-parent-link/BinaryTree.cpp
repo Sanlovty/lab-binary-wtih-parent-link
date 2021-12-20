@@ -26,10 +26,6 @@ void BinaryTree::addMethod_(Node* node, const int& data)
 			node->setRight(newNode);
 		}
 	}
-	else
-	{
-		throw exception("Try to add data, that already contained");
-	}
 }
 
 BinaryTree::BinaryTree() : head_(nullptr)
